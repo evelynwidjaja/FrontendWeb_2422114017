@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grok Login</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to right, #000, #1a1a1a);
+        }
+        .login-container {
+            text-align: center;
+            position: relative;
+        }
+        .login-container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .login-btn {
+            display: block;
+            width: 300px;
+            padding: 12px;
+            margin: 10px auto;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: opacity 0.3s;
+        }
+        .login-btn:hover {
+            opacity: 0.9;
+        }
+        .x-btn {
+            background-color: #fff;
+            color: #000;
+            font-weight: bold;
+        }
+        .email-btn {
+            background-color: #333;
+            color: #fff;
+        }
+        .apple-btn {
+            background-color: #000;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+        .google-btn {
+            background-color: #000;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+        .google-btn img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        a {
+            color: #aaa;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Create your account</h1>
+        <button class="login-btn x-btn">Sign up with X</button>
+        <button class="login-btn email-btn">Sign up with email</button>
+        <button class="login-btn apple-btn">Sign up with Apple</button>
+        <button class="login-btn google-btn"><img src="https://www.google.com/favicon.ico" alt="Google" width="20">Sign up with Google</button>
+        <p>Already have an account? <a href="#">Sign in</a></p>
+    </div>
+</body>
+</html>
